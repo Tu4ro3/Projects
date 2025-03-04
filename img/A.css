@@ -1,0 +1,135 @@
+body {
+  margin: 0%;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background-color: #b0d1d8;
+  color: #333;
+}
+header {
+  color: #fff;
+  height: 400px;
+  display: flex;
+  flex-direction: column; justify-content: center;
+  width: 100vw;
+  background: url(../img/header.jpg) center no-repeat #b0d1d8;
+}
+header h1 {
+  color: white;
+  font-family: 'Trebuchet MS', Helvetica,
+ 
+}
+.header-container {
+  background-color: rgba(57, 93, 119, 0.9);
+  display: block;
+  width: 100vw;
+  margin-left: auto; margin-right: auto;
+  text-align: center;
+  color: white;
+}
+.header-links ul {
+  list-style-type: none;
+  padding-bottom: 20px;
+  font-size: 25px;
+  font-family: Trebuchet MS;
+  margin: 0%;
+  display: inline-block;
+}
+.header-links li {
+  display: inline;
+  padding-right: 20px; 
+}
+.header-links a {
+  text-decoration: none;
+  color: white;
+}
+.header-links a:hover {
+  text-decoration: underline;
+}
+footer {
+  padding-top: 0%; padding-bottom: 0%; padding-left: 20px; padding-right: 20px;
+  width: 80vw; max-width: 1200px;
+  margin-top: 50px; margin-bottom: 50px; margin-left: auto; margin-right: auto;
+  padding: 0px;
+  font-family: Verdana, Arial;
+  color: #768f94;
+  display: block;
+}
+#footer-left {
+  float: left;
+}
+#footer-right {
+  float: right;
+}
+footer a{
+  color: #768f94;
+}
+.hero {
+  background-color: white;
+  max-width: 1200px;
+  width: 80vw;
+  margin-top: 0; margin-bottom: 0; margin-left: auto; margin-right: auto;
+  padding: 20px;
+  font-family: Verdana, Arial;
+}
+h1 {
+  color: #333;
+  size: 36px;
+}
+h2 {
+  color: #333;
+  size: 24px;
+}
+.table {
+  text-align: center;
+}
+.cell {
+  display: inline-block;
+  margin-top: 20px; margin-bottom: 20px; margin-left: 20px; margin-right: 20px;
+  width: 500px;
+  height: 400px;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+}
+.cell-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 0 20px;
+}
+#myynti {
+  background-image: url(../img/myynti.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#asennus {
+  background-image: url(../img/asennus.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#suunnittelu {
+  background-image: url(../img/suunnittelu.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#huolto {
+  background-image: url(../img/huolto.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#korjaus {
+  background-image: url(../img/korjaus.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#asiantuntija {
+  background-image: url(../img/asiantuntija.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.cell-container h2 {
+  color: #fff;
+}
